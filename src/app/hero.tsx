@@ -46,13 +46,11 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import rocket from "../../public/rocket.png";
-import TechBackgroundAnimation from "../components/BackgroundAnimation";
 
 const Hero = () => {
   return (
     <div className="relative min-h-screen flex items-center">
-      <TechBackgroundAnimation />
-      
+     
       <div className="bg-transparent px-4 md:px-8 lg:px-16 z-10 w-full">
         <div className="container mx-auto text-center md:text-left px-4 flex flex-col md:flex-row items-center justify-between">
           <motion.div 
